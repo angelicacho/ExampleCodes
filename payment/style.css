@@ -1,0 +1,58 @@
+.{
+	margin: 0;
+	padding: 0;
+}
+
+.gray-border {
+	border: 0.5px solid #e8e8e8;
+}
+
+.grayBG {
+	background-color: #e8e8e8;
+}
+
+.payment-option {
+	margin: auto;
+}
+
+.payment-option img {
+	max-width: 100%;
+}
+
+
+.images {
+	margin: auto;
+}
+
+.payment-option p {
+	font-size: 9px;
+	color: darkgrey;
+	display: inline-block;
+	margin: 8px 0 0 0;
+}
+
+.payment-option label {
+	font-size: 14px;
+}
+
+.ideal-payment {
+	border-bottom: 0.5px solid gainsboro;
+}
+
+.submit-button {
+	background-color: #2fafba;
+	border-radius: 4px;
+	color: #fff;
+	letter-spacing: 3px;
+	font-weight: 300;
+	font-size: 9px;
+}
+
+.form-check-input:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: black;
+}

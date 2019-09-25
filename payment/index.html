@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Payment">
+<meta name="keywords" content="HTML,CSS,JavaScript">
+<meta name="author" content="Angelica Cho">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<title>Payment</title>
+<link rel="stylesheet" href="./style.css">
+<link href="form-validation.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body class="bg-light">
+	<div class="container mt-5">
+		<div class="row col-lg-8 mx-auto">
+			<p class="payment-p mb-3">Choose your payment method</p>
+			<div class="payment-option gray-border">
+				<div class="d-flex px-4 py-3 grayBG">
+					<div class="my-auto form-check col-lg-8 ml-4">
+	          			<input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios1" value="paypal" checked>
+	          			<label class="form-check-label" for="gridRadios1">
+	            			PayPal
+	          			</label>
+	          			<br>
+	          			<p>PayPal is the faster, safer way to send money, make an online payment, receive money. Account not needed.</p>
+	        		</div>
+	        		<div class="images col-lg-3" id="paypal">
+	        			<img  src="./paypal.svg">
+	        		</div>
+				</div>
+				<div class="d-flex px-4 py-3">
+					<div class="my-auto form-check col-lg-8 ml-4">
+	          			<input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios1" value="credit" checked>
+	          			<label class="form-check-label" for="gridRadios1">
+	            			Credit Card
+	          			</label>
+	          			<br>
+	          			<p>Safe money transfer with your bank account.<br>Visa, Master, Discover, Amex, JCB.</p>
+	        		</div>
+	        		<div class="images col-lg-3" id="credit">
+	        			<img src="./creditcards.png">
+	        		</div>
+				</div>
+				<div class="d-flex px-4 py-3 grayBG">
+					<div class="my-auto form-check col-lg-8 ml-4">
+	          			<input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios1" value="apple" checked>
+	          			<label class="form-check-label" for="gridRadios1">
+	            			Apple Pay - Google Pay - Microsoft Wallet
+	          			</label>
+	          			<br>
+	        		</div>
+	        		<div class="images col-lg-4" id="apple">
+	        			<img src="./apple.png">
+	        		</div>
+				</div>
+				<div class="px-4 py-3">
+					<div class="my-auto ideal-payment d-flex pb-2">
+						<div class="form-check col-lg-8 ml-4">
+		          			<input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios1" value="ideal" checked>
+		          			<label class="form-check-label" for="gridRadios1">
+		            			Ideal - Bancontact - Sofort - Giropay
+		          			</label>
+		          			<br>
+		          			<p>Use direct transfer for Netherlands, Belgium, and Germany.<br> Only in Euro.</p>
+		        		</div>
+		        		<div class="images col-lg-3" id="ideal">
+		        			<img src="./ideal.png">
+		        		</div>
+	        		</div>
+	        		<div class="d-flex mt-3">
+	        			<div class="entry col-lg-4">
+	        				Invoice Number
+	        				<input class="form-control form-control-sm mt-2" type="text" readonly>
+	        			</div>
+	        			<div class="entry col-lg-4">
+	        				Amount to Pay
+	        				<input class="form-control form-control-sm mt-2" type="text" readonly>
+	        			</div>
+	        			<div class="entry col-lg-4">
+	        				Currency
+	        				<input class="form-control form-control-sm mt-2" type="text" readonly>
+	        			</div>
+	        		</div>
+	        		<div class="mx-auto mt-3 col-lg-12">
+	        			<button class="col-lg-12 py-2 submit-button">SUBMIT</button>
+	        		</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
